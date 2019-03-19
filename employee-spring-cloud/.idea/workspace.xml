@@ -5,13 +5,21 @@
       <change beforePath="$PROJECT_DIR$/../company-spring-cloud/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../company-spring-cloud/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../company-spring-cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../company-spring-cloud/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../company-spring-cloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../company-spring-cloud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company-spring-cloud/src/main/java/com/sewon/spring/cloud/netflix/example/Company/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company-spring-cloud/src/main/java/com/sewon/spring/cloud/netflix/example/Company/controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../company-spring-cloud/src/main/java/com/sewon/spring/cloud/netflix/example/Company/controller/GetEmployeeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company-spring-cloud/src/main/java/com/sewon/spring/cloud/netflix/example/Company/controller/GetEmployeeCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../company-spring-cloud/src/main/java/com/sewon/spring/cloud/netflix/example/CompanyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../company-spring-cloud/src/main/java/com/sewon/spring/cloud/netflix/example/CompanyApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../company-spring-cloud/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../company-spring-cloud/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../company-spring-cloud/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../company-spring-cloud/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sewon/spring/cloud/netflix/example/Employee/EmployeeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sewon/spring/cloud/netflix/example/Employee/EmployeeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-spring-cloud/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/.idea/thriftCompiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-spring-cloud/.idea/thriftCompiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-spring-cloud/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/eureka-spring-cloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-spring-cloud/eureka-spring-cloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/src/main/java/com/sewon/spring/cloud/netflix/example/DiscoveryServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-spring-cloud/target/classes/application.yml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -37,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sewon/spring/cloud/netflix/example/Employee/EmployeeApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +122,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -186,13 +194,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eureka-spring-cloud" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -279,12 +287,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -295,7 +301,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -308,12 +314,58 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sewon/spring/cloud/netflix/example/Employee/EmployeeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sewon/spring/cloud/netflix/example/Employee/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sewon/spring/cloud/netflix/example/Employee/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1009#1019#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="931">
@@ -383,7 +435,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sewon/spring/cloud/netflix/example/Employee/EmployeeApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -400,7 +452,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="64" />
         </state>
       </provider>
     </entry>

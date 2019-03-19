@@ -18,14 +18,9 @@ public class GetEmployeeCommand  {
     @Autowired
     RestTemplate restTemplate;
 
-    @Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
-
     @HystrixCommand(fallbackMethod = "getFallback")
     public List<Employee> getEmployee(String name)  {
-        List<Employee> employeeList = (List<Employee>)restTemplate.exchange("http://localhost:8082/company/"+name+"/employees"
+        List<Employee> employeeList = (List<Employee>)restTemplate.exchange("http://employee-service/company/"+name+"/employees"
           ,HttpMethod.GET,null
           ,new ParameterizedTypeReference<List<Employee>>() {}).getBody();
 

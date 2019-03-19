@@ -8,3 +8,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+employee-service:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8082

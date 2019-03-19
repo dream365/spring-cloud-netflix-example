@@ -22,10 +22,8 @@ public class CompanyController {
     @Autowired
     GetEmployeeCommand getEmployeeCommand;
 
-    @Bean
-    public RestTemplate getRestTemplate() {
-        return new RestTemplate();
-    }
+    @Autowired
+    RestTemplate restTemplate;
 
     private static final Logger logger = LoggerFactory.getLogger(CompanyController.class);
     @RequestMapping(value="/{name}",method=RequestMethod.GET)
